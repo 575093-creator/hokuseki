@@ -242,7 +242,7 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 .table td { color: var(--ink); }
 
 /* ---------- 事業所 ---------- */
-.offices { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.offices { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .office {
   padding: 30px; background: #fff;
   border: 1px solid var(--line); border-left: 4px solid var(--amber); border-radius: 10px;
