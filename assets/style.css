@@ -266,6 +266,24 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 .recruit-cta__text { margin-top: 18px; max-width: 40em; font-size: 15px; color: rgba(255, 255, 255, .86); }
 .recruit-cta__actions { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 14px; }
 
+/* ---------- 呼びかけコールアウト ---------- */
+.callout {
+  display: flex; align-items: flex-start; gap: 12px;
+  margin-top: 20px; padding: 16px 20px;
+  background: #fff6e9; border: 1px solid #f2cf9b; border-left: 4px solid var(--amber);
+  border-radius: 8px; text-align: left;
+  font-size: 14px; line-height: 1.75; color: #6b4708;
+}
+.callout__icon { flex: none; width: 20px; height: 20px; margin-top: 4px; color: var(--amber-dark); }
+.callout strong { color: #8a5a09; }
+.callout--on-dark {
+  background: rgba(255, 255, 255, .12);
+  border-color: rgba(255, 198, 112, .5); border-left-color: #ffc670;
+  color: rgba(255, 255, 255, .92);
+}
+.callout--on-dark .callout__icon { color: #ffc670; }
+.callout--on-dark strong { color: #ffc670; }
+
 /* ---------- お問い合わせ ---------- */
 .contact { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
 .contact__box {
