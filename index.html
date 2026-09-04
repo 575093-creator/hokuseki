@@ -11,6 +11,7 @@
 <meta property="og:title" content="有限会社北陸石油物流｜北陸のエネルギーライフラインを支える石油輸送">
 <meta property="og:description" content="富山県高岡市を拠点に、タンクローリーで北陸三県の石油製品輸送を担っています。">
 <meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="assets/tanker.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -148,25 +149,11 @@
         </p>
       </div>
 
-      <!-- 【写真差し替え位置】本社外観・車両・乗務員の写真など -->
-      <figure class="about__figure reveal" aria-hidden="true">
-        <svg viewBox="0 0 640 480">
-          <rect width="640" height="480" fill="#0b2f5e"/>
-          <circle cx="520" cy="110" r="60" fill="#ffc670" opacity=".28"/>
-          <path d="M0 340 L120 270 L240 320 L380 240 L500 310 L640 250 L640 480 L0 480Z" fill="#071f3f"/>
-          <!-- タンクローリー -->
-          <g transform="translate(90 300)">
-            <rect x="150" y="10" width="230" height="62" rx="31" fill="#fff"/>
-            <rect x="150" y="34" width="230" height="10" fill="#e8901a"/>
-            <path d="M40 22h95v50H40a10 10 0 01-10-10V32a10 10 0 0110-10z" fill="#fff"/>
-            <rect x="46" y="30" width="42" height="24" rx="4" fill="#1b4c8f"/>
-            <rect x="20" y="72" width="380" height="10" rx="5" fill="#c9760c"/>
-            <circle cx="80" cy="92" r="18" fill="#05172f"/><circle cx="80" cy="92" r="7" fill="#8ea4bd"/>
-            <circle cx="290" cy="92" r="18" fill="#05172f"/><circle cx="290" cy="92" r="7" fill="#8ea4bd"/>
-            <circle cx="345" cy="92" r="18" fill="#05172f"/><circle cx="345" cy="92" r="7" fill="#8ea4bd"/>
-          </g>
-          <rect y="430" width="640" height="50" fill="#05172f"/>
-        </svg>
+      <figure class="about__figure reveal">
+        <picture>
+          <source srcset="assets/tanker.webp" type="image/webp">
+          <img src="assets/tanker.jpg" alt="石油製品を運ぶ当社のタンクローリー" width="720" height="480" loading="lazy" decoding="async">
+        </picture>
       </figure>
     </div>
 
