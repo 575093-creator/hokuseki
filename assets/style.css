@@ -315,13 +315,52 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 .footer__list a { color: rgba(255, 255, 255, .8); }
 .footer__bottom { padding-top: 24px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; font-size: 12px; color: rgba(255, 255, 255, .55); }
 
+/* ---------- よくある質問 ---------- */
+.qa__intro {
+  margin-bottom: 44px; padding: 20px 24px;
+  background: var(--bg-tint); border-radius: 10px;
+  font-size: 15px; color: var(--ink);
+}
+.qa__cat {
+  margin: 56px 0 20px; padding-left: 14px;
+  font-size: 20px; font-weight: 700; letter-spacing: .04em;
+  color: var(--navy); border-left: 4px solid var(--amber);
+}
+.qa__cat:first-of-type { margin-top: 0; }
+.qa__list { display: grid; gap: 16px; }
+.qa__item {
+  padding: 24px 26px; background: #fff;
+  border: 1px solid var(--line); border-radius: 12px;
+}
+.qa__q, .qa__a { display: flex; gap: 14px; align-items: flex-start; }
+.qa__q { font-size: 16px; font-weight: 700; color: var(--navy); line-height: 1.75; }
+.qa__a {
+  margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--line);
+  font-size: 15px; color: var(--ink); line-height: 1.9;
+}
+.qa__mark {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  min-width: 34px; height: 26px; padding: 0 8px; margin-top: 2px;
+  font-size: 12px; font-weight: 700; letter-spacing: .04em;
+  color: #fff; background: var(--navy); border-radius: 6px;
+}
+.qa__mark--a { background: var(--amber); }
+.qa__text { flex: 1; min-width: 0; }
+.qa__a strong { color: var(--navy); }
+
+@media (max-width: 767px) {
+  .qa__item { padding: 20px 18px; }
+  .qa__q, .qa__a { gap: 10px; }
+  .qa__cat { font-size: 18px; margin-top: 44px; }
+}
+
 /* ---------- 下層ページ ---------- */
 .pagehead {
   margin-top: var(--header-h); padding: clamp(48px, 7vw, 84px) 0;
   background: linear-gradient(120deg, var(--navy-dark), var(--navy-light)); color: #fff;
 }
 .pagehead__en { font-size: 12px; font-weight: 700; letter-spacing: .22em; color: #ffc670; }
-.pagehead__title { margin-top: 8px; font-size: clamp(26px, 4vw, 38px); font-weight: 700; }
+.pagehead__title { margin-top: 0; font-size: clamp(26px, 4vw, 38px); font-weight: 700; }
 .breadcrumb { margin-top: 16px; font-size: 12px; color: rgba(255, 255, 255, .7); }
 .breadcrumb a { color: rgba(255, 255, 255, .9); }
 
