@@ -176,11 +176,11 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 .section__head { margin-bottom: clamp(36px, 5vw, 56px); }
 .section__head--center { text-align: center; }
 .section__en {
-  display: block; font-size: 12px; font-weight: 700;
-  letter-spacing: .22em; color: var(--amber);
+  display: block; font-size: 18px; font-weight: 700;
+  letter-spacing: .14em; color: var(--amber);
 }
 .section__title {
-  margin-top: 8px;
+  margin-top: 10px;
   font-size: clamp(24px, 3.4vw, 34px); font-weight: 700;
   letter-spacing: .04em; line-height: 1.5;
 }
