@@ -9,9 +9,9 @@
 <text x="215" y="300" fill="#8aa396" font-size="16" letter-spacing="4">石川県</text>
 <text x="60" y="360" fill="#8aa396" font-size="16" letter-spacing="4">福井県</text>
 <g>
-<path transform="translate(430 190)" d="M0-34C-13-34-21-24-21-13C-21 3 0 18 0 18S21 3 21-13C21-24 13-34 0-34Z" fill="#33865e"/>
+<path transform="translate(430 190)" d="M0-34C-13-34-21-24-21-13C-21 3 0 18 0 18S21 3 21-13C21-24 13-34 0-34Z" fill="#c1272d"/>
 <circle cx="430" cy="176" r="7" fill="#fff"/>
-<rect x="388" y="212" width="84" height="30" fill="#33865e"/><text x="430" y="233" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">本社</text>
+<rect x="388" y="212" width="84" height="30" fill="#c1272d"/><text x="430" y="233" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">本社</text>
 <path transform="translate(262 200)" d="M0-34C-13-34-21-24-21-13C-21 3 0 18 0 18S21 3 21-13C21-24 13-34 0-34Z" fill="#bf8e07"/>
 <circle cx="262" cy="186" r="7" fill="#fff"/>
 <rect x="214" y="222" width="96" height="30" fill="#bf8e07"/><text x="262" y="243" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">金沢事業所</text>
