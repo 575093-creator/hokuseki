@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b6a55"/><stop offset="1" stop-color="#132a1f"/></linearGradient></defs>
+<rect width="540" height="240" fill="url(#s)"/>
+<g fill="#0e2018"><rect x="250" y="70" width="80" height="170"/><rect x="340" y="40" width="90" height="200"/><rect x="440" y="95" width="70" height="145"/><rect x="190" y="120" width="54" height="120"/></g>
+<g fill="#bf8e07" opacity=".85">
+<rect x="264" y="88" width="14" height="12"/><rect x="298" y="88" width="14" height="12"/><rect x="264" y="116" width="14" height="12"/><rect x="298" y="144" width="14" height="12"/>
+<rect x="356" y="60" width="16" height="12"/><rect x="396" y="60" width="16" height="12"/><rect x="356" y="90" width="16" height="12"/><rect x="396" y="120" width="16" height="12"/><rect x="356" y="150" width="16" height="12"/>
+<rect x="454" y="112" width="14" height="12"/><rect x="484" y="140" width="14" height="12"/><rect x="204" y="138" width="12" height="10"/>
+</g>
+<rect y="226" width="540" height="14" fill="#08130e"/>
+</svg>
