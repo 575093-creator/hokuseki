@@ -3,7 +3,7 @@
    有限会社北陸石油物流 コーポレートサイト（吉沢運送グループ体裁版）
    ========================================================= */
 :root{
-  --main:#c1272d; --main-d:#9b1d22; --gold:#bf8e07; --gold-d:#a37905;
+  --main:#c1272d; --main-d:#9b1d22; --gold:#c1272d; --gold-d:#9b1d22; --ink:#222;
   --ink:#050202; --gray:#f4f4f4; --line:#808080;
   --header:104px; --container:1140px;
 }
@@ -373,3 +373,40 @@ body.nav-open{overflow:hidden}
   .cta-box{padding:40px 20px}
   .cta-box h3{font-size:21px}
 }
+
+/* ================================================================
+   配色C：白 × 赤ライン（赤は線・ボタン・印だけに使う）
+   ================================================================ */
+.p-ti,.recruit .p-ti,.contact .p-ti{color:var(--ink)}
+.ja-logo::before{background:var(--main);height:2px}
+.arw-sq,.page-top{background:var(--ink)}
+.serv-item:hover .arw-sq,.sq-item:hover .arw-sq,.page-top:hover{background:var(--main)}
+.about-img::before{background:var(--gray);border-top:4px solid var(--main)}
+.btn-arw{color:var(--ink)}
+
+.recruit{background:var(--gray);color:var(--ink);border-top:4px solid var(--main)}
+.btn-rec{border-color:var(--ink);color:var(--ink);background:#fff}
+.btn-rec::after{border-color:var(--ink)}
+.btn-rec:hover{background:var(--ink);color:#fff}
+.btn-rec:hover::after{border-color:#fff}
+.btn-rec--gold{background:var(--main);border-color:var(--main);color:#fff}
+.btn-rec--gold::after{border-color:#fff}
+.btn-rec--gold:hover{background:var(--main-d);border-color:var(--main-d)}
+
+.contact{color:var(--ink);border-top:4px solid var(--main)}
+.contact::before{filter:grayscale(1)}
+.contact::after{background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(255,255,255,.86) 100%)}
+.cont-l::after{background:var(--main)}
+.cont-btn{background:var(--main);border-color:var(--main);color:#fff}
+.cont-btn:hover{background:var(--main-d);border-color:var(--main-d);color:#fff}
+.cont-btn:hover::before{background:#fff}.cont-btn:hover::after{border-color:#fff}
+.contact .hp-note{border-color:#d5d5d5;background:#fff}
+.contact .hp-note b{color:var(--main)}
+
+.pg-h2,.pg-h3,.card h3,.fact-list b,.prose h2,.tbl th{color:var(--ink)}
+.faq-mark--a{background:var(--ink)}
+.cta-box{background:#fff;color:var(--ink);border-top:4px solid var(--main)}
+.pages-body .hp-note{border-color:#d5d5d5;background:#fff;color:var(--ink)}
+.pages-body .hp-note b{color:var(--main)}
+.hp-note--light{border-color:#d5d5d5;background:#fff;color:var(--ink)}
+.hp-note--light b{color:var(--main)}
